@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+    <title>Book Now Page</title>
+</head>
+<body class="bg-blue-100 >
+
+    <div class="booking">
+        <h1 class="text-center text-3xl bg-blue-100 underline">Plan Your Stay</h1>
+    <form>
+        <p class ="text-center text-xl">Select Dates</p>
+        <div class="w-1/2 mx-auto mt-4 p-4 border border-blue-500">
+            <label for="check-in" class="block mb-2">Check-in date</label>
+            <input type="date" id="check-in" class="w-full px-4 py-2 rounded-md border border-blue-500 focus:outline-none focus:ring focus:border-blue-300">
+        
+            <label for="check-out" class="block mt-4 mb-2">Check-out date</label>
+            <input type="date" id="check-out" class="w-full px-4 py-2 rounded-md border border-blue-500 focus:outline-none focus:ring focus:border-blue-300">
+          </div>
+        
+        
+          <div class="mb-4">
+            <p class="mb-2 text-gray-600">Select Rooms</p>
+      
+            <label for="adults" class="block mb-1">Count of adults (18 yrs and above):</label>
+            <input type="text" id="adults" name="adults" placeholder="Enter count" class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+      
+            <label for="children" class="block mt-4 mb-1">Count of children (between 2 yrs and 18 yrs):</label>
+            <input type="text" id="children" name="children" placeholder="Enter count" class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+      
+            <label for="infants" class="block mt-4 mb-1">Count of infants (below 2 yrs):</label>
+            <input type="text" id="infants" name="infants" placeholder="Enter count" class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+      
+            <label for="rooms" class="block mt-4 mb-1">Number of rooms required:</label>
+            <input type="text" id="rooms" name="rooms" placeholder="Enter count" class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+          </div>
+        <p>Choose Accomodation Type</p>
+  
+        
+            
+        <div class="mb-4">
+            <label for="dropdown" class="block mb-2 text-blue-600">Select an option:</label>
+            <select id="dropdown" name="dropdown" class="w-full px-3 py-2 border border-blue-400 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+              <option value="">-- Please select an option --</option>
+              <option value="option1">Standard room</option>
+              <option value="option2">Deluxe room</option>
+              <option value="option3">Executive Suite</option>
+              <option value="option4">Junior Suite</option>
+              <option value="option5">Presidential Suite</option>
+            </select>
+          </div>
+          
+      </form>
+
+
+    </div>
+    
+    <h4 class="text-2xl font-semibold mb-2">Check-in/Check-out Policies</h4>
+    <p class="text-gray-800 leading-relaxed">
+      This property has the following check-in and check-out times and policies:
+    </p>
+    <br>
+    <p class="text-blue-600 font-semibold">Check-In: 2:00 PM</p>
+    <br>
+    <p class="text-blue-600 font-semibold">Check-Out: 12:00 PM</p>
+    <br>
+
+    <p class="text-2xl font-semibold mb-2">Property and Cancellation Policies :</p>
+    <br>
+    <p class="text-gray-800 leading-relaxed">
+      Full Charge - Full Deposit - If canceled within 2 days of arrival
+    </p>
+
+    <h6 class="text-2xl font-semibold mb-4">Terms and Conditions</h6>
+    <ul class="list-disc list-inside">
+      <li class="text-gray-800 mb-2">Credit card details required to secure booking. Your credit card will not be charged unless in case of cancellation policy and no show.</li>
+      <li class="text-gray-800 mb-2">Full payment is required upon check-in / Room rates are for a maximum of two people per room.</li>
+      <li class="text-gray-800 mb-2">Extra surcharges apply for a roll out bed / Food and drinks from outside not allowed in rooms or in the resort.</li>
+      <li class="text-gray-800 mb-2">Cars cannot be parked along the front of the resort and must be parked in the designated car park.</li>
+      <li class="text-gray-800 mb-2">Smoking is strictly prohibited in all guest rooms, library, and dining areas, smoking is permitted in areas as designated by the hotel. Please check with Reception for more information.</li>
+    </ul>
+    <p class="text-red-600 mt-4 font-semibold">Failure to follow the terms and conditions may lead to you being asked to vacate the property without refund.</p>
+  </body>
+ 
+
+    
+    
+    
     
 </body>
 </html>

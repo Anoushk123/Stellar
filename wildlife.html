@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Tailwind CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Wildlife Expedition Guide</title>
+</head>
+<body class="bg-gradient-to-b from-green-200 to-green-400">
+    <!-- Navbar -->
+    <nav class="bg-green-300 py-4 px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            
+            <a href="Nomad's Quest.html" class="text-2xl font-bold text-white">Wildlife Expedition Guide</a>
+
+            <!-- Navigation Links -->
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <!-- Container with centered content -->
+    <div class="container mx-auto py-12 px-4">
+        <h1 id="destinations" class="text-4xl md:text-6xl font-bold text-white text-center mb-8">Nomad's Quest</h1>
+
+        <!-- Left column with wildlife destinations -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Serengeti National Park -->
+            <a href="serengeti.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/serengeti.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">SERENGETI</h3>
+            </a>
+            <!-- Amazon Rainforest -->
+            <a href="amazon_rainforest.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/amazon.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">AMAZON RAINFOREST</h3>
+            </a>
+            <!-- Yellowstone National Park -->
+            <a href="yellowstone.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/amazon.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">YELLOWSTONE</h3>
+            </a>
+        </div>
+
+        
+        <div class="md:col-span-1 md:ml-8 md:pl-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Wildlife Diversity</h2>
+            <ul class="text-white mb-8">
+                <li class="mb-2">Encounter majestic creatures from lions to elephants, and marvel at their natural behavior.</li>
+                <li class="mb-2">Discover a myriad of bird species and rare wildlife that inhabit diverse ecosystems.</li>
+                <li class="mb-2">Experience the thrill of observing wildlife in their natural habitats.</li>
+            </ul>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Eco-conscious Expeditions</h2>
+            <p class="text-white mb-8">
+                Embrace sustainable practices and responsible tourism to protect and conserve wildlife habitats.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Adventure and Wildlife Safaris</h2>
+            <p class="text-white mb-8">
+                Embark on thrilling safaris, river cruises, and nature walks guided by expert naturalists.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Conservation and Education</h2>
+            <p class="text-white mb-8">
+                Support wildlife conservation efforts and learn about the importance of preserving biodiversity.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Photography and Wildlife Encounters</h2>
+            <p class="text-white mb-8">
+                Capture breathtaking moments with wildlife photography and create memories to last a lifetime.
+            </p>
+        </div>
+
+        <!-- Testimonials -->
+        <h2 id="testimonials" class="text-2xl md:text-3xl font-bold text-white my-8">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"My experience in the Serengeti was surreal! Witnessing the Great Migration was a once-in-a-lifetime moment I'll cherish forever."</p>
+                <p class="text-gray-800 font-bold">- Rachel, August 2022</p>
+            </div>
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"The Amazon Rainforest was like stepping into a different world. The diversity of flora and fauna was incredible!"</p>
+                <p class="text-gray-800 font-bold">- David, June 2022</p>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <h2 id="conclusion" class="text-2xl md:text-4xl font-bold text-white my-8">Conclusion</h2>
+        <p class="text-lg md:text-xl text-white">
+            Embark on a wildlife adventure of a lifetime in our Wildlife Expedition Guide. From the vast plains of the Serengeti to the lush jungles of the Amazon and the geothermal wonders of Yellowstone, these destinations offer unparalleled encounters with majestic wildlife. Embrace conservation, education, and responsible tourism as you explore the diverse ecosystems that are home to a myriad of fascinating creatures.
+        </p>
+    </div>
+
+    <!-- Footer -->
+<footer class="bg-green-300 py-4 px-8 text-white text-center">
+    <p>&copy; 2023 Wildlife Expedition Guide. All rights reserved.</p>
+    
+</footer>
+
+<!--  AOS library for animations -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

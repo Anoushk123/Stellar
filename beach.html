@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Tailwind CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Beach Paradise Guide</title>
+</head>
+<body class="bg-gradient-to-b from-blue-200 to-blue-400">
+    <!-- Navbar -->
+    <nav class="bg-blue-300 py-4 px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            
+            <a href="Nomad's Quest.html" class="text-2xl font-bold text-white">Beach Paradise Guide</a>
+
+            <!-- Navigation Links -->
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <!-- Container with centered content -->
+    <div class="container mx-auto py-12 px-4">
+        <h1 id="destinations" class="text-4xl md:text-6xl font-bold text-white text-center mb-8">Nomad's Quest</h1>
+
+        <!-- Left column with beach destinations -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Maldives -->
+            <a href="maldives.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/maldives.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">MALDIVES</h3>
+            </a>
+            <!-- Bora Bora -->
+            <a href="bora_bora.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/borabora.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">BORA BORA</h3>
+            </a>
+            <!-- Seychelles -->
+            <a href="seychelles.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/seychelles.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">SEYCHELLES</h3>
+            </a>
+        </div>
+
+        
+        <div class="md:col-span-1 md:ml-8 md:pl-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Serenity on the Shore</h2>
+            <ul class="text-white mb-8">
+                <li class="mb-2">Relax and unwind on pristine beaches with crystal-clear waters.</li>
+                <li class="mb-2">Experience the tranquil ambiance and breathtaking sunsets of beach paradises.</li>
+                <li class="mb-2">Indulge in the ultimate beachfront luxury and tropical escapes.</li>
+            </ul>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Exotic Island Hideaways</h2>
+            <p class="text-white mb-8">
+                Discover secluded islands and remote shores that offer a sense of exclusivity and romance.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Adventures in Aquatic Beauty</h2>
+            <p class="text-white mb-8">
+                Dive into vibrant coral reefs, go snorkeling, or embark on thrilling water sports adventures.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Cuisine and Beachside Delights</h2>
+            <p class="text-white mb-8">
+                Savor fresh seafood and tropical delicacies at beachfront restaurants and cozy cafes.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Embrace the Beach Lifestyle</h2>
+            <p class="text-white mb-8">
+                Immerse yourself in the laid-back vibe and carefree spirit of beach paradises.
+            </p>
+        </div>
+
+        <!-- Testimonials -->
+        <h2 id="testimonials" class="text-2xl md:text-3xl font-bold text-white my-8">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"Our trip to Bora Bora was like a dream come true. The overwater bungalows were amazing!"</p>
+                <p class="text-gray-800 font-bold">- Jessica, June 2022</p>
+            </div>
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"The Maldives offered the perfect blend of relaxation and adventure. It was paradise!"</p>
+                <p class="text-gray-800 font-bold">- Michael, November 2022</p>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <h2 id="conclusion" class="text-2xl md:text-4xl font-bold text-white my-8">Conclusion</h2>
+        <p class="text-lg md:text-xl text-white">
+            Escape to idyllic shores and immerse yourself in the beauty of beach paradises with our Beach Paradise Guide. From the stunning Maldives to the exotic Bora Bora and the enchanting Seychelles, these destinations offer serene and exotic escapes that will rejuvenate your soul and create cherished memories by the shore.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-300 py-4 px-8 text-white text-center">
+        <p>&copy; 2023 Beach Paradise Guide. All rights reserved.</p>
+        
+    </footer>
+<!--  AOS library for animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad's Quest - Spring Retreats</title>
+    <!-- Link to Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #DFEBF6;
+            color: #29353C;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #44576D;
+        }
+
+        blockquote {
+            color: #44576D;
+            font-style: italic;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-white py-4 px-8">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                
+                <a href="Nomad's Quest.html" class="text-2xl font-bold text-blue-600">Nomad's Quest</a>
+
+                <!-- Navigation Links -->
+                <ul class="flex space-x-4">
+                    <li><a href="#spring-retreats" class="text-blue-600">Spring Retreats</a></li>
+                    <li><a href="#photo-gallery" class="text-blue-600">Photo Gallery</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Content -->
+    <div class="container mx-auto px-8 py-12">
+        <!-- Spring Retreats -->
+        <section id="spring-retreats" class="pb-12">
+            <h1 class="text-4xl font-bold mb-8">Spring Retreats</h1>
+            <div data-aos="zoom-in" data-aos-duration="3000">
+            <img src="Images/Seasons/springbanner.jpg" alt="spring Retreats" class="rounded-lg">
+            <p class="text-xl mt-6">Embrace the beauty of autumn with Nomad's Quest. Witness nature's canvas adorned in rich hues of gold and crimson. Our spring retreats offer a tranquil escape into picturesque landscapes and cozy getaways, celebrating the season of change.</p>
+            </div>
+            <!-- Top Spring Activities -->
+            <h2 class="text-2xl font-bold mt-8 mb-4">Top Spring Activities</h2>
+            <ul class="list-disc list-inside">
+                <li>Cherry Blossom Viewing, Washington, D.C.</li>
+                <li>Hiking and Nature Walks</li>
+                <li>Wildlife Watching</li>
+                <li>Vineyard Visits</li>
+                <li>Cycling Tours</li>
+            </ul>
+
+            <!-- Must-Visit Spring Destinations -->
+            <h2 class="text-2xl font-bold mt-8 mb-4">Must-Visit Spring Destinations</h2>
+            <ul class="list-disc list-inside">
+                <li>Kyoto, Japan</li>
+                <li>Amsterdam, Netherlands</li>
+                <li>Washington, D.C., USA</li>
+                <li>Paris, France</li>
+                <li>London, England</li>
+            </ul>
+
+            <!-- Spring Quotes -->
+            <blockquote class="italic text-lg mt-8">
+                "It's spring fever. That is what the name of it is. And when you've got it, you want — oh, you don't quite know what it is you do want, but it just fairly makes your heart ache, you want it so!" - Mark Twain
+            </blockquote>
+            <blockquote class="italic text-lg mt-4">
+                "Behold, my friends, the spring is come; the earth has gladly received the embraces of the sun, and we shall soon see the results of their love!" - Sitting Bull
+            </blockquote>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section id="photo-gallery" class="pt-12">
+            <h2 class="text-3xl font-bold mb-8">Spring Adventure Photos</h2>
+            <div data-aos="zoom-in-up"  data-aos-duration="2000" class="grid grid-cols-3 md:grid-cols-2 gap-4">
+                <img src="Images/Seasons/f1.jpg" alt="spring Adventure 1" class="rounded-lg">
+                <img src="Images/Seasons/f2.jpg" alt="spring Adventure 2" class="rounded-lg">
+                <img src="Images/Seasons/f3.jpg" alt="spring Adventure 3" class="rounded-lg">
+                <img src="Images/Seasons/f4.jpg" alt="spring Adventure 4" class="rounded-lg">
+                <img src="Images/Seasons/f5.jpg" alt="spring Adventure 5" class="rounded-lg">
+                <img src="Images/Seasons/f6.jpg" alt="spring Adventure 6" class="rounded-lg">
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white py-4 px-8 text-center">
+        <p class="text-gray-500">&copy; 2023 Spring. All rights reserved.</p>
+       
+    </footer>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!--  AOS library for animations -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

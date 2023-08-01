@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Tailwind CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Mountain Escapes Guide</title>
+</head>
+<body class="bg-gradient-to-b from-yellow-200 to-yellow-400">
+    <!-- Navbar -->
+    <nav class="bg-yelow-300 py-4 px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            
+            <a href="Nomad's Quest.html" class="text-2xl font-bold text-white">Mountain Escapes Guide</a>
+
+            <!-- Navigation Links -->
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <!-- Container with centered content -->
+    <div class="container mx-auto py-12 px-4">
+        <h1 id="destinations" class="text-4xl md:text-6xl font-bold text-white text-center mb-8">Nomad's Quest</h1>
+
+        <!-- Left column with mountain destinations -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Swiss Alps -->
+            <a href="swiss_alps.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/swissalps.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">SWISS ALPS</h3>
+            </a>
+            <!-- Rocky Mountains -->
+            <a href="rocky_mountains.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/rockymountains.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">ROCKY MOUNTAINS</h3>
+            </a>
+            <!-- Himalayas -->
+            <a href="himalayas.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/himalayas.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">HIMALAYAS</h3>
+            </a>
+        </div>
+
+ 
+        <div class="md:col-span-1 md:ml-8 md:pl-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Secluded Mountain Retreats</h2>
+            <ul class="text-white mb-8">
+                <li class="mb-2">Experience tranquility at luxurious mountain lodges nestled amidst nature.</li>
+                <li class="mb-2">Enjoy breathtaking panoramic views of snow-capped peaks and lush valleys.</li>
+                <li class="mb-2">Immerse yourself in the peaceful surroundings and reconnect with nature.</li>
+            </ul>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Local Cuisine and Dining</h2>
+            <p class="text-white mb-8">
+                Savor hearty mountain meals, warming soups, and traditional delicacies by the fireplace.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Safety Tips and Guidelines</h2>
+            <ul class="list-disc list-inside text-white mb-8">
+                <li class="mb-2">Be prepared for changing weather conditions and pack accordingly.</li>
+                <li class="mb-2">Respect wildlife and follow designated hiking trails.</li>
+                <li class="mb-2">Inform someone about your hiking plans and estimated return time.</li>
+            </ul>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Local Experiences</h2>
+            <p class="text-white mb-8">
+                Embark on scenic hikes, witness breathtaking sunrises, and explore charming mountain villages.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Sustainable Travel</h2>
+            <p class="text-white mb-8">
+                Embrace eco-friendly practices and support local initiatives that protect the fragile mountain ecosystems.
+            </p>
+
+            <!-- Testimonials -->
+            <h2 id="testimonials" class="text-2xl md:text-3xl font-bold text-white mb-4">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg p-4">
+                    <p class="text-gray-600 mb-2">"The Swiss Alps were a dream come true! The scenery was absolutely breathtaking, and the ski slopes were incredible. Can't wait to go back!"</p>
+                    <p class="text-gray-800 font-bold">- Emily, February 2022</p>
+                </div>
+                <div class="bg-white rounded-lg p-4">
+                    <p class="text-gray-600 mb-2">"The Rocky Mountains offered some of the most spectacular hikes I've ever experienced. The wildlife sightings were an added bonus!"</p>
+                    <p class="text-gray-800 font-bold">- Mark, July 2022</p>
+                </div>
+            </div>
+
+            <!-- Conclusion -->
+            <h2 id="conclusion" class="text-2xl md:text-4xl font-bold text-white my-8">Conclusion</h2>
+            <p class="text-lg md:text-xl text-white">
+                Experience the awe-inspiring beauty of mountains and reconnect with nature in our Mountain Escapes Guide. Whether you seek adventure, tranquility, or a blend of both, these mountain destinations offer unforgettable experiences. Start planning your mountain retreat and immerse yourself in the breathtaking landscapes of the world's most stunning mountain ranges.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="bg-yellow-300 py-4 px-8 text-white text-center">
+    <p>&copy; 2023 Mountain Escapes Guide. All rights reserved.</p>
+    
+</footer>
+
+<!--  AOS library for animations -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

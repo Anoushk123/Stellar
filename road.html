@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Tailwind CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Road Trip Adventures Guide</title>
+</head>
+<body class="bg-gradient-to-b from-pink-200 to-pink-400">
+        <!-- Navbar -->
+        <nav class="bg-pink-300 py-4 px-8">
+            <div class="container mx-auto flex justify-between items-center">
+                
+                <a href="Nomad's Quest.html" class="text-2xl font-bold text-white">Nomad's Quest</a>
+    
+                <!-- Navigation Links -->
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#conclusion">Conclusion</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    <!-- Container with centered content -->
+    <div class="container mx-auto py-12 px-4">
+        <h1 id="destinations" class="text-4xl md:text-6xl font-bold text-white text-center mb-8">Road Trip Adventures Guide</h1>
+
+        <!-- Left column with road trip destinations -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pacific Coast Highway -->
+            <a href="pacific_coast_highway.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/highway.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">PACIFIC COAST HIGHWAY</h3>
+            </a>
+            <!-- Great Ocean Road -->
+            <a href="great_ocean_road.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/road.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">GREAT OCEAN ROAD</h3>
+            </a>
+            <!-- Route 66 -->
+            <a href="route_66.html" class="block h-96 bg-cover bg-center rounded-lg shadow-md" style="background-image: url('Images/Destinations/route66.jpg');" data-aos="fade-up">
+                <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-20">ROUTE 66</h3>
+            </a>
+        </div>
+
+        
+        <div class="md:col-span-1 md:ml-8 md:pl-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Freedom of the Open Road</h2>
+            <ul class="text-white mb-8">
+                <li class="mb-2">Embark on epic road trips and explore diverse landscapes, from coastlines to deserts.</li>
+                <li class="mb-2">Experience the thrill of driving along iconic highways and scenic routes.</li>
+                <li class="mb-2">Create unforgettable memories with friends and family on the open road.</li>
+            </ul>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Hidden Gems and Must-See Stops</h2>
+            <p class="text-white mb-8">
+                Discover charming towns, natural wonders, and cultural attractions along your road trip journey.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Roadside Adventures and Excursions</h2>
+            <p class="text-white mb-8">
+                Take detours to explore off-the-beaten-path destinations and embrace spontaneous adventures.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Camping and Outdoor Escapes</h2>
+            <p class="text-white mb-8">
+                Experience the joy of camping under the stars and connecting with nature during your journey.
+            </p>
+
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Capture the Spirit of the Road</h2>
+            <p class="text-white mb-8">
+                Document your road trip experiences through photography and journaling to cherish the memories.
+            </p>
+        </div>
+
+        <!-- Testimonials -->
+        <h2 id="testimonials" class="text-2xl md:text-3xl font-bold text-white my-8">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"Driving along the Pacific Coast Highway was a breathtaking experience. The views were incredible!"</p>
+                <p class="text-gray-800 font-bold">- Alex, September 2022</p>
+            </div>
+            <div class="bg-white rounded-lg p-4">
+                <p class="text-gray-600 mb-2">"Route 66 offered a nostalgic journey through the heart of America. It was an adventure of a lifetime!"</p>
+                <p class="text-gray-800 font-bold">- Sarah, July 2022</p>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <h2 id="conclusion" class="text-2xl md:text-4xl font-bold text-white my-8">Conclusion</h2>
+        <p class="text-lg md:text-xl text-white">
+            Hit the road and embark on unforgettable journeys with our Road Trip Adventures Guide. From the scenic Pacific Coast Highway to the iconic Route 66, these road trips offer the freedom to explore diverse landscapes, discover hidden gems, and create cherished memories on the open road.
+        </p>
+    </div>
+
+    <!-- Footer -->
+<footer class="bg-pink-300 py-4 px-8 text-white text-center">
+    <p>&copy; 2023 Road Trip Adventures Guide. All rights reserved.</p>
+    
+</footer>
+
+<!--  AOS library for animations -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

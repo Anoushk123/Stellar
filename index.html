@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad's Quest - Embrace the Call of the Unknown</title>
+    <!-- Add Tailwind CSS CDN link here -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-blue-100">
+
+    <!-- Header with Horizontal Sidebars -->
+    <header class="fixed top-0 left-0 w-full bg-blue-300 text-white py-4 px-8 z-50">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-3xl font-bold">Nomad's Quest</h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#seasons">SEASONS</a></li>
+                <li><a href="#travelguides">TRAVEL GUIDES</a></li>
+                <li><a href="#aboutus">ABOUT US</a> </li>
+                <li><a href="#wps">WHAT PEOPLE SAY</a></li>
+                <li><a href="#booknow">BOOK NOW</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+            <!-- Add your social media icons here -->
+            <div class="flex space-x-4 text-white">
+                <a href="#" class="hover:text-blue-100"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-blue-100"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-100"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div id="home" class="container mx-auto px-8 py-12">
+        <!-- Homepage - Background Video -->
+        <header class="relative">
+            <video autoplay loop muted class="w-full h-full object-cover">
+                
+                <source src="Images/Background/videobg2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="container mx-auto text-center">
+                    <h1 class="text-white text-4xl font-bold mb-4">Embrace the Call of the Unknown</h1>
+                    <a href="#seasons"
+                        class="bg-blue-100 hover:bg-blue-100 text-blue-400 px-6 py-3 rounded-lg font-bold uppercase tracking-wide">Explore
+                        Now</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Destinations by Seasons -->
+        <section id="seasons" class="py-12"><br><br>
+            <h2 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">DESTINATIONS BY SEASONS</h2>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <a href="summer.html"
+                    class="block md:h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Seasons/summerbg.jpg');">
+                    <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-32">SUMMER</h3>
+                </a>
+                <a href="winter.html"
+                    class="block md:h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Seasons/winterbg.jpg');">
+                    <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-32">WINTER</h3>
+                </a>
+                <a href="fall.html"
+                    class="block md:h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Seasons/springbg.jpg');">
+                    <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-32">SPRING</h3>
+                </a>
+                <a href="autumn.html"
+                    class="block md:h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Seasons/autumnbg.jpg');">
+                    <h3 class="text-white text-4xl md:text-5xl font-bold text-center pt-32">AUTUMN</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- Travel Guides -->
+        <section id="travelguides" class="py-12"><br><br>
+            <h2 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">TRAVEL GUIDES</h2>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="beach.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/beachbg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Beach Paradise
+                        Guide</h3>
+                </a>
+                <a href="mountain.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/mountainbg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Mountain Escapes
+                        Guide</h3>
+                </a>
+                <a href="cultural.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/culturalbg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Cultural Wonders
+                        Guide</h3>
+                </a>
+                <a href="wildlife.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/wildlifebg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Wildlife Expeditions
+                        Guide</h3>
+                </a>
+                <a href="luxury.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/luxurybg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Luxury Getaways
+                        Guide</h3>
+                </a>
+                <a href="road.html"
+                    class="block h-96 bg-cover bg-center rounded-lg" style="background-image: url('Images/Destinations/roadtripbg.jpg');">
+                    <h3 class="text-white text-5xl md:text-4xl font-bold text-center pt-32">Road Trip Adventures
+                        Guide</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="aboutus" class="py-12"><br><br>
+            <div data-aos="zoom-in-up" data-aos-duration="1000" class="container mx-auto">
+                <h2 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">ABOUT US</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="Images/Background/logo.jpg" alt="Nomad's Quest Logo"
+                            class="w-full h-100 mx-auto rounded-full mb-4">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">Our Vision</h3>
+                        <p class="bg-blue-50 p-4 w-150">We envision a world where travel becomes a transformative
+                            and enriching journey for all. Our dream is to foster a global community of travelers
+                            who embark on unforgettable adventures, leaving positive footprints wherever they go.
+                        </p>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">Our Values</h3>
+                        <ul class="list-disc list-inside bg-blue-50 p-4 w-150">
+                            <li>Cultivating Respect: We respect the environment, cultures, and traditions of the
+                                places we visit, valuing authenticity and sustainability in our journeys.</li>
+                            <li>Promoting Inclusivity: We believe in inclusive travel, creating experiences that
+                                welcome all travelers, regardless of background or identity.</li>
+                            <li>Embracing Adventure: We embrace the spirit of exploration, encouraging curiosity
+                                and the pursuit of adventure in every traveler.</li>
+                            <li>Providing Excellence: We strive for excellence in every aspect of our services,
+                                ensuring our travelers have seamless and unforgettable experiences.</li>
+                            <li>Supporting Local Communities: We support local communities and economies,
+                                collaborating with local partners to create mutual benefits.</li>
+                        </ul>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">Experience with Us</h3>
+                        <p class="bg-blue-50 p-4 w-150">As part of Nomad’s Quest growth, we are now a luxury resort in
+                            Kep that is part of Kep West. Experience the best of what Kep West has to offer -
+                            beautiful beaches, exciting attractions, and relaxing activities. Unwind and rejuvenate on
+                            your next vacation with us!</p>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">With Love </h3>
+                        <p class="bg-blue-50 p-4 w-150 text-lg text-center">Welcome to Nomad's Quest, your ultimate
+                            destination for extraordinary travel experiences. Our mission is to inspire and enable
+                            every wanderer to embrace the call of the unknown, to explore new horizons, and to connect
+                            with the world's diverse cultures and landscapes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What People Say -->
+        <section id="wps" class="py-12"><br><br>
+            <h2 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">WHAT PEOPLE SAY</h2>
+            <div class="slider-container">
+                <div class="slider-content flex space-x-4 overflow-x-auto">
+                    <!-- Slide 1 -->
+                    <div class="review-card bg-blue-50 p-4 w-96">
+                        <blockquote class="mb-4 text-lg">
+                            "We had such a great time… Enjoyed the very beautiful sunrise and the warm welcome was
+                            just amazing!
+                            Again, thank you for everything!"
+                        </blockquote>
+                        <p class="text-sm font-bold">Melanie, August 2021</p>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="review-card bg-blue-50 p-4 w-96">
+                        <blockquote class="mb-4 text-lg">
+                            "Un grand merci à Joanna qui nous à aidé, conseillé et accompagné tout au long de notre
+                            séjour!
+                            Le logement est magnifique et très propre situé dans un endroit calme a 3 minutes d'une
+                            magnifique plage. cerise sur le gâteau la piscine privative !
+                            Merci pour ta bienveillance et ton professionnalisme."
+                        </blockquote>
+                        <p class="text-sm font-bold">Salomé et Quentin, August 2021</p>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="review-card bg-blue-50 p-4 w-96">
+                        <blockquote class="mb-4 text-lg">
+                            "Perfect Stay!"
+                        </blockquote>
+                        <p class="text-sm font-bold">Sarah, August 2021</p>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="review-card bg-blue-50 p-4 w-96">
+                        <blockquote class="mb-4 text-lg">
+                            "Very beautiful villa! We had a wonderful stay and everything was as expected, clean and
+                            with great views of the bay. We hope to come back again and stay a bit longer!!"
+                        </blockquote>
+                        <p class="text-sm font-bold">Chris, March 2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Now Page -->
+        <section id="booknow" class="bg-blue-100 py-12">
+            <div data-aos="zoom-in-up class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+                <!-- Container with centeblue content -->
+                <div class="container mx-auto py-12 px-4">
+                    <h1 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">Book Your
+                        Adventure</h1>
+
+                    <!-- Booking form -->
+                    <form class="bg-white rounded-lg shadow-md p-6">
+                        <!-- Destination -->
+                        <div class="mb-6">
+                            <label class="block text-blue-350 text-sm font-bold mb-2" for="destination">Destination</label>
+                            <input type="text" id="destination" name="destination"
+                                class="w-full border border-blue-100 rounded-md p-2 focus:outline-none focus:border-blue-400"
+                                placeholder="Enter your dream destination" requiblue>
+                        </div>
+
+                        <!-- Number of Travelers -->
+                        <div class="md:flex md:space-x-4">
+                            <div class="mb-6 md:w-1/2">
+                                <label class="block text-blue-350 text-sm font-bold mb-2" for="members">Number of
+                                    Travelers</label>
+                                <input type="number" id="members" name="members"
+                                    class="w-full border border-blue-100 rounded-md p-2 focus:outline-none focus:border-blue-400"
+                                    placeholder="Enter the number of travelers" requiblue>
+                            </div>
+
+                            <!-- Travel Date -->
+                            <div class="mb-6 md:w-1/2">
+                                <label class="block text-blue-350 text-sm font-bold mb-2" for="date">Travel Date</label>
+                                <input type="date" id="date" name="date"
+                                    class="w-full border border-blue-100 rounded-md p-2 focus:outline-none focus:border-blue-400"
+                                    requiblue>
+                            </div>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="mb-6">
+                            <label class="block text-blue-350 text-sm font-bold mb-2" for="contact">Contact
+                                Information</label>
+                            <input type="text" id="contact" name="contact"
+                                class="w-full border border-blue-100 rounded-md p-2 focus:outline-none focus:border-blue-400"
+                                placeholder="Enter your contact information" requiblue>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="flex justify-center">
+                            <button type="submit"
+                                class="bg-blue-100 text-blue-400 px-6 py-3 rounded-lg font-bold uppercase tracking-wide hover:bg-blue-300 hover:text-blue-100">Book
+                                Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact" class="py-12">
+            <h2 class="text-4xl md:text-6xl font-bold text-blue-300 text-center mb-8">CONTACT US</h2>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">Customer Support</h3>
+                        <p class="bg-blue-50 p-4 w-150">Have questions or need assistance with your booking? Our
+                            customer support team is available 24/7 to help you. Feel free to reach out to us anytime.
+                        </p>
+                        <p class="text-blue-350 text-lg mt-2">Phone: +1 (800) 123-4567</p>
+                        <p class="text-blue-350 text-lg">Email: support@nomadsquest.com</p>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl text-blue-300 font-bold mb-6">Business Inquiries</h3>
+                        <p class="bg-blue-50 p-4 w-150">For business partnership opportunities or media inquiries,
+                            please contact us through the following channels. We'd love to hear from you!</p>
+                        <p class="text-blue-350 text-lg mt-2">Email: business@nomadsquest.com</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-300 text-white py-6 px-8">
+        <div class="container mx-auto">
+            <p class="text-center">&copy; 2023 Nomad's Quest. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+<!--  AOS library for animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
